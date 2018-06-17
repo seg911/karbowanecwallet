@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<TS version="2.1" language="es_ES" sourcelanguage="en">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2003,7 +2003,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>Incoming transaction, unconfirmed</source>
-        <translation>Transacción entrante, inconfirmado</translation>
+        <translation>Transacción entrante, sin confirmar</translation>
     </message>
     <message>
         <source>Mined, confirmations</source>
@@ -2011,11 +2011,11 @@ Are you sure?</source>
     </message>
     <message>
         <source>Sent to yourself, unconfirmed</source>
-        <translation>Enviado a ti mismo, inconfirmado</translation>
+        <translation>Enviado a ti mismo, sin confirmar</translation>
     </message>
     <message>
         <source>Outgoing transaction, unconfirmed</source>
-        <translation>Transacción saliente, inconfirmado</translation>
+        <translation>Transacción saliente, sin confirmar</translation>
     </message>
     <message numerus="yes">
         <source>Incoming transaction, %n confirmation(s)</source>

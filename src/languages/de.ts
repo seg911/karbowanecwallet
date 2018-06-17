@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="de_DE" sourcelanguage="en">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -224,7 +224,7 @@
     </message>
     <message>
         <source>Confirm sending %1 KRB</source>
-        <translation type="unfinished">Bestätige senden %1 KRB</translation>
+        <translation>Bestätige senden %1 KRB</translation>
     </message>
 </context>
 <context>
@@ -303,11 +303,11 @@ Bitte warten...</translation>
     <name>ExportTrackingKeyDialog</name>
     <message>
         <source>Export tracking key</source>
-        <translation>Tracking key exportieren</translation>
+        <translation>Tracking Schlüssel exportieren</translation>
     </message>
     <message>
         <source>Tracking key allows to see all incoming transactions of this wallet. It does not allow to spend funds.</source>
-        <translation>Mit dem Tracking keyl können Sie alle eingehenden Transaktionen dieser Brieftasche sehen. Es wird nicht erlaubt Beträge auszugeben.</translation>
+        <translation>Mit dem Tracking Schlüssel können Sie alle eingehenden Transaktionen dieser Brieftasche sehen. Es wird nicht erlaubt Beträge auszugeben.</translation>
     </message>
     <message>
         <source>Save to file</source>
@@ -1489,11 +1489,11 @@ Externer Port für das P2P-Netzwerkprotokoll (wenn Portweiterleitung mit NAT ver
     <name>WalletGui::ExportTrackingKeyDialog</name>
     <message>
         <source>Save tracking key to...</source>
-        <translation>Tracking Key speichern unter...</translation>
+        <translation>Tracking Schlüssel speichern unter...</translation>
     </message>
     <message>
         <source>Tracking key (*.trackingkey)</source>
-        <translation>Tracking key (*.trackingkey)</translation>
+        <translation>Tracking Schlüssel (*.trackingkey)</translation>
     </message>
 </context>
 <context>
