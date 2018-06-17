@@ -100,7 +100,6 @@ private:
   void updateRecentActionList();
   void updateUnmixableBalance(quint64 _balance);
   void payTo(const QModelIndex& _index);
-  void switchTranslator(QTranslator& translator, const QString& filename);
 
   Q_SLOT void createWallet();
   Q_SLOT void createNonDeterministicWallet();

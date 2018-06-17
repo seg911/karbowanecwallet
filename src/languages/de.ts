@@ -559,7 +559,7 @@ Bitte warten...</translation>
     </message>
     <message>
         <source>Change language</source>
-        <translation>Sprache ändern</translation>
+        <translation type="vanished">Sprache ändern</translation>
     </message>
     <message>
         <source>Show private key</source>
@@ -1611,7 +1611,7 @@ Bist du sicher?</translation>
     </message>
     <message>
         <source>The language will be changed after restarting the wallet.</source>
-        <translation>Die Sprache wird nach neustart des Wallets geändert.</translation>
+        <translation type="vanished">Die Sprache wird nach neustart des Wallets geändert.</translation>
     </message>
     <message>
         <source>Language was changed</source>
@@ -1727,6 +1727,18 @@ Bist du sicher?</translation>
     <message>
         <source>Wrong wallet file extension, wallet file should have &quot;.wallet&quot;, &quot;.keys&quot; or &quot;.trackingwallet&quot; extension.</source>
         <translation>Falsche Wallet-Dateierweiterung, Wallet-Datei sollte die Erweiterung &quot;.wallet&quot;, &quot;.keys&quot; oder &quot;.trackingwallet&quot; haben.</translation>
+    </message>
+    <message>
+        <source>Current Language changed to %1</source>
+        <translation type="obsolete">Aktuelle Sprache wurde in %1 geändert</translation>
+    </message>
+    <message>
+        <source>Language changed to %1. The change will take effect after restarting the wallet.</source>
+        <translation>Die Sprache wurde in %1 geändert. Die Änderung wird nach dem Neustart der Brieftasche wirksam.</translation>
+    </message>
+    <message>
+        <source>Language changed to %1</source>
+        <translation>Die Sprache wurde in %1 geändert</translation>
     </message>
 </context>
 <context>

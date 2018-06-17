@@ -14,7 +14,6 @@ public:
     static TranslatorManager* instance();
     ~TranslatorManager();
 
-     bool setTranslator(const QString& lang);
      void switchTranslator(QTranslator& translator, const QString& filename);
      inline QString getCurrentLang()  { return m_keyLang; }
 

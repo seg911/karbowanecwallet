@@ -13,7 +13,6 @@
 #include <QSystemTrayIcon>
 #include <QDesktopServices>
 #include <QTimer>
-#include <QDebug>
 #include <QLocale>
 #include <QDateTime>
 #include <QTranslator>
@@ -288,9 +287,7 @@ void MainWindow::changeEvent(QEvent* _event) {
   // this event is send if a translator is loaded
   case QEvent::LanguageChange:
   {
-    qDebug() << "Change language event.";
     //m_ui->retranslateUi(this);
-
     setMainWindowTitle();
     break;
   }
@@ -637,16 +634,6 @@ void MainWindow::slotLanguageChanged(QAction* action)
   }
 }
 
-void MainWindow::switchTranslator(QTranslator& translator, const QString& filename)
-{
-  // remove the old translator
-  qApp->removeTranslator(&translator);
-
-  // load the new translator
-  if(translator.load(filename))
-   qApp->installTranslator(&translator);
-}
-
 void MainWindow::loadLanguage(const QString& rLanguage)
 {
   if(m_currLang != rLanguage) {
@@ -657,16 +644,9 @@ void MainWindow::loadLanguage(const QString& rLanguage)
     TranslatorManager::instance()->switchTranslator(m_translator, QString("%1.qm").arg(rLanguage));
     TranslatorManager::instance()->switchTranslator(m_translatorQt, QString("qt_%1.qm").arg(rLanguage));
     Settings::instance().setLanguage((m_currLang));
-    //if(TranslatorManager::instance()->setTranslator(m_currLang)) {
-      m_ui->statusBar->showMessage(tr("Current Language changed to %1").arg(languageName));
-
-      //closeWallet();
-      //WalletAdapter::instance().open("");
-
-      QMessageBox::information(this, tr("Language was changed"),
-           tr("Language changed to %1. The change will take effect after restarting the wallet.").arg(languageName), QMessageBox::Ok);
-
-    //}
+    m_ui->statusBar->showMessage(tr("Language changed to %1").arg(languageName));
+    QMessageBox::information(this, tr("Language was changed"),
+       tr("Language changed to %1. The change will take effect after restarting the wallet.").arg(languageName), QMessageBox::Ok);
   }
 }
 

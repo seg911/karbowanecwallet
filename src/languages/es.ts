@@ -560,7 +560,7 @@ Por favor, espera...</translation>
     </message>
     <message>
         <source>Change language</source>
-        <translation>Cambiar el idioma</translation>
+        <translation type="vanished">Cambiar el idioma</translation>
     </message>
     <message>
         <source>Show private key</source>
@@ -1611,7 +1611,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>The language will be changed after restarting the wallet.</source>
-        <translation>El idioma se cambiará después de reiniciar el monedero.</translation>
+        <translation type="vanished">El idioma se cambiará después de reiniciar el monedero.</translation>
     </message>
     <message>
         <source>Language was changed</source>
@@ -1727,6 +1727,14 @@ Are you sure?</source>
     <message>
         <source>Wrong wallet file extension, wallet file should have &quot;.wallet&quot;, &quot;.keys&quot; or &quot;.trackingwallet&quot; extension.</source>
         <translation>La extensión incorrecta del archivo del monedero, el archivo del monedero debe tener la extensión &quot;.wallet&quot;, &quot;.keys&quot; o &quot;.trackingwallet&quot;.</translation>
+    </message>
+    <message>
+        <source>Language changed to %1. The change will take effect after restarting the wallet.</source>
+        <translation>El idioma cambió a %1. El idioma se cambiará después de reiniciar el monedero.</translation>
+    </message>
+    <message>
+        <source>Language changed to %1</source>
+        <translation>El idioma cambió a %1</translation>
     </message>
 </context>
 <context>

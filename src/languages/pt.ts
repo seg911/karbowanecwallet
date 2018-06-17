@@ -570,7 +570,7 @@ Por favor aguarde...</translation>
     </message>
     <message>
         <source>Change language</source>
-        <translation>Mudar idioma</translation>
+        <translation type="vanished">Mudar idioma</translation>
     </message>
     <message>
         <source>Show private key</source>
@@ -642,7 +642,7 @@ Por favor aguarde...</translation>
     </message>
     <message>
         <source>Start pool mining automatically</source>
-        <translation>Iniciar mineração na pool automaticamente </translation>
+        <translation>Iniciar mineração na pool automaticamente</translation>
     </message>
     <message>
         <source>About</source>
@@ -1623,7 +1623,7 @@ Você tem certeza?</translation>
     </message>
     <message>
         <source>The language will be changed after restarting the wallet.</source>
-        <translation>O idioma será alterado após a carteira ser reiniciada.</translation>
+        <translation type="vanished">O idioma será alterado após a carteira ser reiniciada.</translation>
     </message>
     <message>
         <source>Language was changed</source>
@@ -1739,6 +1739,14 @@ Você tem certeza?</translation>
     <message>
         <source>Wrong wallet file extension, wallet file should have &quot;.wallet&quot;, &quot;.keys&quot; or &quot;.trackingwallet&quot; extension.</source>
         <translation>A extensão de arquivo inválida, o arquivo de carteira deve ter extensões &quot;.wallet&quot;, &quot;.keys&quot; or &quot;.trackingwallet&quot; extension.</translation>
+    </message>
+    <message>
+        <source>Language changed to %1. The change will take effect after restarting the wallet.</source>
+        <translation>Idioma alterado para %1. O idioma será alterado após a carteira ser reiniciada.</translation>
+    </message>
+    <message>
+        <source>Language changed to %1</source>
+        <translation>Idioma alterado para %1</translation>
     </message>
 </context>
 <context>
