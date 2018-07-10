@@ -1292,7 +1292,7 @@ Do you want to go to download page?</source>
     <name>WalletGui::AboutDialog</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>О кошельке Карбованца</translation>
+        <translation>О кошельке</translation>
     </message>
 </context>
 <context>

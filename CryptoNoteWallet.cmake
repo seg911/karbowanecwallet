@@ -2,4 +2,4 @@
 set(CN_PROJECT_NAME "rainsphere")
 set(CN_CURRENCY_DISPLAY_NAME "Rsp")
 set(CN_CURRENCY_TICKER "RSP")
-set(CN_VERSION 1.2.10)
+set(CN_VERSION 0.0.1)

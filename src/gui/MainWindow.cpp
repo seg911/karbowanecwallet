@@ -131,7 +131,7 @@ void MainWindow::connectToSignals() {
 }
 
 void MainWindow::setMainWindowTitle() {
-  setWindowTitle(QString(tr("Karbo Wallet %1")).arg(Settings::instance().getVersion()));
+  setWindowTitle(QString(tr("RSP Wallet %1")).arg(Settings::instance().getVersion()));
 }
 void MainWindow::initUi() {
   setMainWindowTitle();
@@ -663,7 +663,7 @@ void MainWindow::DisplayCmdLineHelp() {
     QMessageBox *msg = new QMessageBox(QMessageBox::Information, QObject::tr("Help"),
                        cmdLineParser.getHelpText(),
                        QMessageBox::Ok, this);
-    msg->setInformativeText(tr("More info can be found at www.karbowanec.com in Documentation section"));
+    msg->setInformativeText(tr("More info can be found in Documentation section"));
     QFont font = QFontDatabase::systemFont(QFontDatabase::FixedFont);
     msg->setFont(font);
     QSpacerItem* horizontalSpacer = new QSpacerItem(650, 0, QSizePolicy::Minimum, QSizePolicy::Expanding);
@@ -1014,7 +1014,7 @@ void MainWindow::createTrayIcon()
 {
 #ifdef Q_OS_WIN
     m_trayIcon = new QSystemTrayIcon(QPixmap(":images/cryptonote"), this);
-    QString toolTip = QString(tr("Karbo Wallet %1")).arg(Settings::instance().getVersion());
+    QString toolTip = QString(tr("RSP Wallet %1")).arg(Settings::instance().getVersion());
     m_trayIcon->setToolTip(toolTip);
     m_trayIcon->show();
 #endif
